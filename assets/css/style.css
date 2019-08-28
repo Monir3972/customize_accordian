@@ -1,0 +1,124 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+   
+    color: #3e3f3e;
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+.section-title h2 span{
+    color: #26a65b;
+    font-weight: bold;
+}
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center!important;
+}
+.single-pricing-box h3 {
+    text-transform: uppercase;
+    /*position: relative;
+    left: 23px;*/
+}
+.pricing-icon {
+    font-size: 65px;
+    margin-bottom: 22px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    text-align: center;
+}
+.pricing-icon img {
+    max-width: 115px;
+}
+.pricing-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.pricing-list ul li:before{
+    font-family: fontAwesome;
+    content:"\f00c";
+    color: #1ed269;
+    padding-right: 10px;
+}
+.pricing-list ul li.off:before{
+   content:"\f00d";
+   color: #ed1c1c;
+}
+.single-pricing-box {
+    text-align: left;
+    margin-bottom: 22px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+/*.single-pricing-box h3.pricing-count {
+    text-transform: none;
+}*/
+.pricing-count{
+    text-transform: uppercase;
+}
+.border-btn {
+    border: 1px solid #4eb679;
+    padding: 10px 30px;
+    background: #ffffff;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-pricing-box:hover {
+    border-color: #26a65b;
+    box-shadow: 0 0 50px #ddd;
+}
+.border-btn:hover {
+    background: #26a65b;
+    color: #fff;
+}
+.single-pricing-box:hover .pricing-box img {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.pricing-list ul li:hover {
+    padding-left: 5px;
+}
+.pricing-list ul li {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.pricing-icon:hover {
+    color: #26a65b;
+}
